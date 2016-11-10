@@ -2,6 +2,10 @@ body{
   background-color:#2b2b2b;
 }
 
+.container{
+  border-bottom:3px solid #ecf0f1;
+}
+
 #header{
   color:#ecf0f1;
   font-family: 'Montserrat', sans-serif;
@@ -10,4 +14,52 @@ body{
 #header a{
   text-decoration: none;
   color:#ecf0f1;
+}
+
+#icons{
+  margin-top:20px;
+}
+
+#icons i{
+  color:#ecf0f1;
+  font-size:18px;
+  padding:5px;
+  margin:auto;
+}
+
+.header_icons{
+  display:inline;
+}
+
+#icons h2 a i.fa.fa-codepen:hover{
+  color:#b1b1b1;
+  transition:all ease-in-out 300ms;
+}
+
+#icons h2 a i.fa.fa-github:hover{
+  color:#af19b7;
+  transition:all ease-in-out 300ms;
+}
+
+#icons h2 a i.fa.fa-dribbble:hover{
+  color:#ea4c89;
+  transition:all ease-in-out 300ms;
+}
+
+#icons h2 a i.fa.fa-twitter:hover{
+  color:#1da1f2;
+  transition:all ease-in-out 300ms;
+}
+
+@media only screen and (max-width : 767px) {
+  #icons{
+  margin-top:0px;
+  padding-bottom:5px;
+  }
+  #header{
+    margin-bottom:0px;
+  }
+  #icons i{
+    font-size:23px;
+  }
 }
