@@ -51,6 +51,75 @@ body{
   transition:all ease-in-out 300ms;
 }
 
+#icons h2 a i.fa {
+  opacity: 0;
+}
+
+#icons h2 a i.fa.is-visible {
+  -webkit-animation: Items 600ms ease-in forwards;
+          animation: Items 600ms ease-in forwards;
+}
+
+@-webkit-keyframes Items2 {
+  0% {
+    opacity: 0;
+    height: 0%;
+    padding: 0px;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes Items2 {
+  0% {
+    opacity: 0;
+    height: 0%;
+    padding: 0px;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes Items {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.3) rotateY(90deg);
+            transform: scale(0.3) rotateY(90deg);
+  }
+  60% {
+    -webkit-transform: scale(1.4);
+            transform: scale(1.4);
+  }
+  90% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes Items {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.3) rotateY(90deg);
+            transform: scale(0.3) rotateY(90deg);
+  }
+  60% {
+    -webkit-transform: scale(1.4);
+            transform: scale(1.4);
+  }
+  90% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
 @media only screen and (max-width : 767px) {
   #icons{
   margin-top:0px;
