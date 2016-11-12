@@ -2,6 +2,17 @@ body{
   background-color:#2b2b2b;
 }
 
+a{
+  color:#ecf0f1;
+}
+
+a.pink:hover { color: #FF0056; }
+a.blue:hover { color: #00FFFF; }
+a.yellow:hover { color: #E1C751; }
+a.lime:hover { color: #59FF18; }
+a.orange:hover { color: #FF8739; }
+a.lilac:hover { color: #A644AB; }
+a.pale_yellow:hover { color: #ECBF55; }
 .container{
   border-bottom:3px solid #ecf0f1;
 }
@@ -13,12 +24,12 @@ body{
 
 #header a{
   text-decoration: none;
-  color:#ecf0f1;
+  /*color:#ecf0f1;*/
 }
 
 #header a:hover{
-  color:#18FFFF;
-  transition:all ease-in-out 300ms;
+  /*color:#18FFFF;*/
+  /*transition:all ease-in-out 300ms;*/
 }
 
 ul#nav{
