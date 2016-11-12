@@ -13,7 +13,8 @@ a.lime:hover { color: #59FF18; }
 a.orange:hover { color: #FF8739; }
 a.lilac:hover { color: #A644AB; }
 a.pale_yellow:hover { color: #ECBF55; }
-.container{
+
+#top{
   border-bottom:3px solid #ecf0f1;
 }
 

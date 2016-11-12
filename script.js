@@ -15,7 +15,7 @@ $(document).ready(function(){
           var classes = new Array("pink", "blue", "yellow", "lime", "orange", "lilac", "pale_yellow");
 
           //Get a random number from 0 to 4
-          var randomNumber = Math.floor(Math.random()*6);
+          var randomNumber = Math.floor(Math.random()*7);
 
           return classes[randomNumber];
       }
