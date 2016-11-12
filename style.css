@@ -16,6 +16,35 @@ body{
   color:#ecf0f1;
 }
 
+#header a:hover{
+  color:#18FFFF;
+  transition:all ease-in-out 300ms;
+}
+
+ul#nav{
+  padding-left:2px;
+}
+
+#nav{
+  margin-top:30px;
+}
+
+.nav_item{
+  display:inline;
+}
+
+.nav_item a{
+  color:#ecf0f1;
+  font-family: 'Montserrat', sans-serif;
+  padding:5px;
+}
+
+.nav_item a:hover{
+  text-decoration:none;
+  color:#18FFFF;
+  transition:all ease-in-out 300ms;
+}
+
 #icons{
   margin-top:20px;
 }
@@ -130,5 +159,16 @@ body{
   }
   #icons i{
     font-size:23px;
+  }
+  #nav{
+    margin-top:17px;
+  }
+
+}
+
+@media only screen and (max-width: 991px){
+  div#icons.col-sm-2{
+    padding-right:0px;
+    font-size: 1px;
   }
 }
