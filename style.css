@@ -1,9 +1,9 @@
 body{
-  background-color:#2b2b2b;
+  background-color:#ecf0f1;
 }
 
 a{
-  color:#ecf0f1;
+  color:#2b2b2b;
 }
 
 a.pink:hover { color: #FF0056; }
@@ -15,11 +15,11 @@ a.lilac:hover { color: #A644AB; }
 a.pale_yellow:hover { color: #ECBF55; }
 
 #top{
-  border-bottom:3px solid #ecf0f1;
+  border-bottom:3px solid #2b2b2b;
 }
 
 #header{
-  color:#ecf0f1;
+  color:#2b2b2b;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -46,7 +46,7 @@ ul#nav{
 }
 
 .nav_item a{
-  color:#ecf0f1;
+  color:#2b2b2b;
   font-family: 'Montserrat', sans-serif;
   padding:5px;
 }
@@ -62,7 +62,7 @@ ul#nav{
 }
 
 #icons i{
-  color:#ecf0f1;
+  color:#2b2b2b;
   font-size:18px;
   padding:5px;
   margin:auto;
