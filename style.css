@@ -106,7 +106,7 @@ ul#nav{
 }
 
 .pic {
-
+margin-bottom:25px;
 }
 
 .inset{
@@ -231,6 +231,8 @@ ul#nav{
 
 
 }
+
+
 
 @media only screen and (max-width: 991px){
   div#icons.col-sm-2{
