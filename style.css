@@ -225,6 +225,10 @@ ul#nav{
   #nav{
     margin-top:17px;
   }
+  .pic{
+    margin-top:10px;
+  }
+
 
 }
 
@@ -233,4 +237,5 @@ ul#nav{
     padding-right:0px;
     font-size: 1px;
   }
+
 }
