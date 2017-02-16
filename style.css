@@ -115,11 +115,25 @@ margin-bottom:25px;
   height:300px;
 }
 
-.pic:nth-child(1){
+.alien{
   background-image:url("img/alien3.jpg");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position:0px 0px;
+  background-position:center;
+}
+
+.mercury{
+  background-image:url("img/mercury.png");
+  background-size: fill;
+  background-repeat: no-repeat;
+  background-position:center;
+}
+
+.blazer{
+  background-image:url("img/blazer.png");
+  background-size: fill;
+  background-repeat: no-repeat;
+  background-position:center;
 }
 
 .inset:hover .overlay {
